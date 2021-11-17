@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+.cards.has-background-primary {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .card-title {
+    margin-bottom: 2rem;
+  }
+  .column.is-3.has-background-secondary {
+    margin: 0 1.5rem;
+  }
+  .min-height-260 {
+    min-height: 250px;
+    margin: 2rem 2rem 0;
+  }
+}

@@ -1,0 +1,33 @@
+// Section-dark
+.section-dark {
+  .section-dark-graphic {
+    position: absolute;
+    bottom: -6%;
+    left: -62%;
+  }
+
+  .container.content-wrapper.column.is-6 {
+    position: relative;
+  }
+}
+
+//Section-light
+.section-light {
+  .section-light-graphic {
+    position: absolute;
+    bottom: 11%;
+    right: -15%;
+  }
+
+  .container.content-wrapper {
+    position: relative;
+  }
+}
+
+//Contact form
+.has-background-dusk {
+  background: $color__success-dark;
+  h2 {
+    color: $color__light !important;
+  }
+}
